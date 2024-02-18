@@ -1,0 +1,65 @@
+.navbar {
+
+    padding: 10px;
+    
+    display: flex;
+    position: inherit;
+    background-color: rgba(255);
+    }
+    
+    .navbar a {
+    
+    text-decoration: none;
+    
+    color: black;
+    
+    font-size: x-large;
+    
+    margin-left: 15px;
+    
+    }
+    
+     
+    
+    .navbar a:hover{
+    
+        color: red;
+    
+    }
+    
+    .navbar-brand{
+        border-radius: 30px;
+        display: flex   ;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        flex-direction: row;
+    
+      }
+      .menu{
+        border: 2px;
+        border-color: rgb(0, 0, 0);
+        border-width: 2px;
+        border-radius: 7px;
+        flex-wrap: wrap;
+      }
+      
+      .videos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .jizda{
+        justify-content: center;
+        display: flex;
+        padding: 45px;
+    }
+    footer {
+        text-align: center;
+        padding: 100px;
+        background-color: yellow;
+        color: black;
+    }
